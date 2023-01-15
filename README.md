@@ -1,5 +1,5 @@
 # Backend_Node-JS
-Backend se conectando com Banco de Dados Postegres.
+Backend se conectando com Banco de Dados Postgres.
 
 Iniciar o projeto `npm init y`
 
