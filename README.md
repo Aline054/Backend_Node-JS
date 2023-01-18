@@ -3,7 +3,7 @@ Backend se conectando com Banco de Dados Postgres.
 
 Iniciar o projeto `npm init y`
 
-Para o servidor `npm run dev`
+Para o servidor funcionar `npm run dev`
 
 Dependencia de Desenvolvimento `npm add typescript -D` 
 
