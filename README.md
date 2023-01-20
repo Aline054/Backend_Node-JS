@@ -1,12 +1,36 @@
-# Backend_Node-JS
-Backend se conectando com Banco de Dados Postgres.
+# Backend
 
-Iniciar o projeto `npm init y`
+Node JS
 
-Para o servidor funcionar `npm run dev`
+Backend usando bando de dados Postgres.
 
-Dependencia de Desenvolvimento `npm add typescript -D` 
+#Começando
 
-npm add express `npm add  @types/express -D`
+```
+npm init y
+```
+Primeiro, execute o servidor de desenvolvimento:
 
-npm i prisma   `npm add @prisma/client`
+```bash
+npm run dev
+# or
+yarn dev
+```
+#Dependencias
+```
+npm add express
+npm init typescript
+npm add typescript -D
+npm add ts-node-dev -D
+npm add express-async-erros
+npm add cors
+npm add @types/cors -D
+npm add prisma
+npm add @prisma/client
+npx prisma init
+```
+
+#Criar uma migration no banco de dados
+```
+npx prisma migrate dev
+```
