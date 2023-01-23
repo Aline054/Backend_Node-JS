@@ -29,6 +29,11 @@ npm add prisma
 npm add @prisma/client
 npx prisma init
 ```
+# Criptografia da senha
+```
+npm add bcryptjs
+npm add @types/bcryptjs -D
+```
 
 #Criar uma migration no banco de dados
 ```
