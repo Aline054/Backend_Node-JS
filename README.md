@@ -1,41 +1,59 @@
-# Backend
+# Backend com banco de dados Postgres
 
-Node JS
 
-Backend usando bando de dados Postgres.
-
-#Começando
-
+# Iniciar
 ```
-npm init y
-```
-Primeiro, execute o servidor de desenvolvimento:
+npm init -y
+````
 
-```bash
+
+# Servidor
+```
 npm run dev
-# or
-yarn dev
+
+npm add ts-node-dev -D
 ```
-#Dependencias
+# TypeScript
+```
+npm add typescript -D
+npx tsc --init
+```
+# Express
 ```
 npm add express
-npm init typescript
-npm add typescript -D
-npm add ts-node-dev -D
+npm add @types/express -D
+```
+
+```
 npm add express-async-erros
+
 npm add cors
 npm add @types/cors -D
+```
+
+
+# Prisma para se conectar com o Banco de Dados
+```
 npm add prisma
 npm add @prisma/client
 npx prisma init
 ```
-# Criptografia da senha
+
+# Criptografa a senha 
 ```
 npm add bcryptjs
 npm add @types/bcryptjs -D
 ```
 
-#Criar uma migration no banco de dados
+
+# Adicionar um Token
+```
+npm add jsonwebtoken
+npm add @types/jsonwebtoken
+npm add dotenv
+```
+
+# Criar uma migration no banco de dados
 ```
 npx prisma migrate dev
 ```
