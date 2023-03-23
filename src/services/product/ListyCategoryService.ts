@@ -4,7 +4,7 @@ import prismaClient from "../../prisma";
 interface ProductRequest{
     category_id: string
 }
-class ListByCategoryService{
+class ListyCategoryService{
     async execute({category_id}: ProductRequest){
          
         const findByCategory = await prismaClient.product.findMany({
@@ -17,4 +17,4 @@ class ListByCategoryService{
       
 }
 
-export { ListByCategoryService }
+export { ListyCategoryService }

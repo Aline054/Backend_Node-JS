@@ -14,7 +14,7 @@ import {ListCategoryController} from './controller/category/ListCategoryControll
 
 import {CreateProductController} from './controller/product/CreateProductController'
 
-import  { ListByCategoryController } from './controller/product/ListByCategoryController'
+import  { ListyProductController } from './controller/product/ListyProductController'
 
 import {CreateOrderController} from './controller/order/CreateOrderController'
 import { RemoveOrderController } from './controller/order/RemoveOrdesControler';
@@ -50,7 +50,7 @@ router.get('/category', new ListCategoryController().handle);
 // --Rotas Product--
 router.post ('/product', upload.single('file'), new CreateProductController().handle)
 
-router.get ('./category/product', new ListByCategoryController().handle);
+router.get ('./category/product', new ListyProductController().handle);
 
 //--Rotas Order--
 router.post('/order',  new CreateOrderController().handle);
